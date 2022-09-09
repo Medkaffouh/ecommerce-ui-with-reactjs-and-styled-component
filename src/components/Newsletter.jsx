@@ -4,7 +4,7 @@ import { mobile } from "../responsive"
 
 const Container = styled.div`
     height: 60vh;
-    background-color: #fcf5f5;
+    background-color: #FFE0B2;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -29,6 +29,7 @@ const InputContainer = styled.div`
     height: 40px;
     background-color: white;
     display: flex;
+    border-radius: 25px;
     justify-content: space-between;
     border: 1px solid lightgray;
     ${mobile({width:"80%"})}
@@ -38,13 +39,16 @@ const Input = styled.input`
     border: none;
     flex: 8;
     padding-left: 20px;
+    border-radius: 25px;
+    
 `
 
 const Button = styled.button`
     flex: 1;
     border: none;
-    background-color: teal;
+    background-color: orange;
     color: white;
+    border-radius: 25px;
 `
 
 const Newsletter = () => {

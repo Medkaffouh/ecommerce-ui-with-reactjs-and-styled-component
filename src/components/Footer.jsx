@@ -12,6 +12,7 @@ import { mobile } from "../responsive";
 
 const Container = styled.div`
   display: flex;
+  background-color:orange;
   ${mobile({flexDirection:"column"})}
 `;
 
@@ -20,6 +21,7 @@ const Left = styled.div`
   display: flex;
   flex-direction: column;
   padding: 20px;
+  
 `;
 
 const Logo = styled.h1``;
@@ -37,7 +39,7 @@ const SocialIcon = styled.div`
   height: 40px;
   border-radius: 50%;
   color: white;
-  background-color: #${(props) => props.color};
+  background-color: #F57C00;
   display: flex;
   align-items: center;
   justify-content: center;

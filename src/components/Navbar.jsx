@@ -72,14 +72,16 @@ const Navbar = () => {
     <Container>
       <Wrapper>
         <Left>
-          <Language>EN</Language>
-          <SearchContainer>
-            <Input placeholder="Search" />
-            <Search style={{ color: "gray", fontSize: 16 }} />
-          </SearchContainer>
+        <Logo>MEDK.</Logo> 
         </Left>
         <Center>
-          <Logo>MEDK.</Logo>
+        <Link
+            to={"/"}
+            style={{ textDecoration: "none", color: "black" }}
+          >
+            <MenuItem>HOME</MenuItem>
+          </Link>
+      
         </Center>
         <Right>
           <Link

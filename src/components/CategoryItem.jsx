@@ -4,13 +4,14 @@ import { mobile } from "../responsive"
 const Container = styled.div`
     flex: 1;
     margin: 3px;
-    height: 70vh;
+    height: 50vh;
     position: relative;
 `
 
 const Image = styled.img`
     width: 100%;
     height: 100%;
+    border-radius: 25px;
     object-fit: cover;
     ${mobile({height: "30vh"})}
 `
@@ -35,15 +36,17 @@ const Title = styled.h1`
 
 const Button = styled.button`
     border: none;
-    padding: 10px;
+    padding: 15px;
     background-color: white;
     color: gray;
     cursor: pointer;
     font-weight: 600;
+    border-radius: 25px;
 `
 
 const CategoryItem = ({item}) => {
   return (
+   
     <Container>
         <Image src={item.img} />
         <Info>

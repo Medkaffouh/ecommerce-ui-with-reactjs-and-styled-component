@@ -15,6 +15,7 @@ const Info = styled.div`
     justify-content: center;
     transition: all 0.5s ease;
     cursor: pointer;
+    border-radius: 25px;
 `
 
 const Container = styled.div`
@@ -25,8 +26,9 @@ const Container = styled.div`
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: #f5fbfd;
+    background-color: #FCF4E7;
     position: relative;
+    border-radius: 25px;
 
     &:hover ${Info}{
         opacity: 1;
